@@ -14,6 +14,8 @@
 		FD4F54A41F219DE7008C37E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4F54A21F219DE7008C37E6 /* LaunchScreen.storyboard */; };
 		FD4F54AF1F219DE7008C37E6 /* TouchTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F54AE1F219DE7008C37E6 /* TouchTrackerTests.swift */; };
 		FD4F54BA1F219DE7008C37E6 /* TouchTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F54B91F219DE7008C37E6 /* TouchTrackerUITests.swift */; };
+		FD4F54C81F219E1A008C37E6 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F54C71F219E1A008C37E6 /* Line.swift */; };
+		FD4F54CA1F219EB4008C37E6 /* DrawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F54C91F219EB4008C37E6 /* DrawView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FD4F54B51F219DE7008C37E6 /* TouchTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4F54B91F219DE7008C37E6 /* TouchTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchTrackerUITests.swift; sourceTree = "<group>"; };
 		FD4F54BB1F219DE7008C37E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD4F54C71F219E1A008C37E6 /* Line.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		FD4F54C91F219EB4008C37E6 /* DrawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				FD4F54991F219DE7008C37E6 /* AppDelegate.swift */,
 				FD4F549B1F219DE7008C37E6 /* ViewController.swift */,
+				FD4F54C71F219E1A008C37E6 /* Line.swift */,
+				FD4F54C91F219EB4008C37E6 /* DrawView.swift */,
 				FD4F549D1F219DE7008C37E6 /* Main.storyboard */,
 				FD4F54A01F219DE7008C37E6 /* Assets.xcassets */,
 				FD4F54A21F219DE7008C37E6 /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD4F54C81F219E1A008C37E6 /* Line.swift in Sources */,
 				FD4F549C1F219DE7008C37E6 /* ViewController.swift in Sources */,
+				FD4F54CA1F219EB4008C37E6 /* DrawView.swift in Sources */,
 				FD4F549A1F219DE7008C37E6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
